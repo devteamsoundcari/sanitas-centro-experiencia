@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("./assets/fonts/Proxima_Nova_Regular.otf"),
+    url("./assets/fonts/Proxima_Nova_Extrabold.otf");
+}
+
+:root {
+  --keralty-neutral-gray0: #ffffff;
+  --keralty-gray200: #e4e4e4;
+  --keralty-gray500: #dbdbdb;
+  --keralty-gray700: #757575;
+  --keralty-gray900: #212121;
+  --keralty-main-blue: #002f87;
+  --keralty-main-blue2: #003d53;
+  --keralty-secondary-blue: #0071ce;
+  --keralty-secondary-blue2: #0069a7;
+  --keralty-third-blue: #0099d1;
+  --keralty-green: #008767;
+  --keralty-footer-darkblue: #006699;
+  --keralty-softgreen: #e7fff9;
+  --keralty-softblue: #e5faff;
+  --keralty-semantics-error: #b50303;
+  --keralty-proxima-nova-main-font: "Proxima Nova", sans-serif;
+  --keralty-roboto-secundaria-font: "Roboto", sans-serif;
+  --keralty-medium-font: 22px;
+  --keralty-small-font: 14px;
+  --keralty-large-font: 32px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* Esto equivale a convertir 1rem a 10px para el manejo de tamaño de fuentes */
+}
+
+body {
+  font-family: var(--keralty-proxima-nova-main-font);
+  font-style: normal;
+  font-size: 1.6rem; /* Se deja la letra en 16px por defecto */
+}
+
+input[type="number"] {
+  appearance: unset;
+  -moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Para navegadores basados en Chromium (Chrome, Edge, etc.) */
+input:-webkit-autofill {
+  background-color: transparent;
+}
+
+/* Para navegadores basados en Firefox */
+input:-moz-autofill {
+  background-color: transparent;
+}

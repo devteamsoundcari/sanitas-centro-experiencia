@@ -1,0 +1,70 @@
+.inputBox {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 10px 20px;
+  width: 50%;
+  gap: 10px;
+}
+
+.department {
+  max-width: 200px;
+}
+
+.city {
+  margin: 0 0 5px 9px;
+  max-width: 200px;
+}
+.service-type {
+  margin: 0 0 5px 4px;
+}
+
+.inputBox .fileInput {
+  flex-direction: column;
+}
+
+label {
+  font-family: var(--keralty-proxima-nova-main-font);
+  font-size: var(--keralty-small-font);
+  color: var(--keralty-gray900);
+}
+
+.mandatory,
+.errorInput {
+  color: var(--keralty-semantics-error);
+}
+input,
+select {
+  font-size: var(--keralty-small-font);
+  font-family: var(--keralty-proxima-nova-main-font);
+  padding: 8px 20px 8px 10px;
+  border: 1px solid var(--keralty-gray700);
+  max-height: 34px;
+}
+
+.doc-num:disabled {
+  background-color: var(--keralty-gray500) !important;
+  color: var(--keralty-gray700) !important;
+}
+
+input:focus {
+  transition: 500ms;
+  border: 1px solid var(--keralty-main-blue);
+  outline: none;
+  background-color: transparent;
+  max-height: 34px;
+}
+/*estilos para dispositivo mobile*/
+@media (max-width: 450px) {
+  .inputBox {
+    width: 100%;
+    margin: 0px 0px 12px 0px;
+  }
+}
+/* controlador para los inputs*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+  -webkit-text-fill-color: var(--keralty-gray700);
+}

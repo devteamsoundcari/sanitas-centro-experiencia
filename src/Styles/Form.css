@@ -1,0 +1,125 @@
+.right-side {
+  display: flex;
+  padding: 52px 40px 0px 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  min-height: 78vh;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.top {
+  width: 100%;
+}
+
+.top h1 {
+  color: var(--keralty-secondary-blue2);
+}
+
+.pre-form-paragraph {
+  font-size: 1.4rem;
+  padding: 4px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.form {
+  width: 100%;
+}
+
+.caja,
+.caja-3 {
+  margin-top: 7px;
+  margin-bottom: 7px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-right: 5px;
+}
+
+.find-icon-cont {
+  width: 30px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  margin-top: 27px;
+  margin-left: 5px;
+  border: 0.5px solid #000;
+  background-color: var(--keralty-third-blue);
+  cursor: pointer;
+}
+.find-icon-cont-disabled {
+  width: 30px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  margin-top: 27px;
+  margin-left: 5px;
+  background-color: var(--keralty-gray500);
+  border: 0.5px solid #000;
+}
+
+.caja input:disabled,
+.caja-3 input:disabled {
+  background-color: var(--keralty-gray200);
+  color: var(--keralty-gray700);
+  font-weight: 700;
+}
+
+.captchaBox {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.checkInput {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  margin: 20px 0 20px 30px;
+}
+
+.btn-container {
+  width: 100%;
+  display: flex;
+  margin: 20px 0;
+  justify-content: center;
+}
+
+.btn-container .ingresar-btn {
+  font-size: large;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px 40px 10px 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: var(--keralty-third-blue);
+  color: var(--keralty-neutral-gray0);
+  cursor: pointer;
+}
+
+.btn-container .ingresar-btn svg {
+  width: 20px;
+}
+
+.ingresar-btn:disabled {
+  background-color: var(--keralty-gray500);
+  color: var(--keralty-gray700);
+  font-weight: 600;
+  cursor: default;
+}
+
+@media (width < 1300px) {
+  .caja,
+  .caja-3 {
+    flex-wrap: wrap;
+  }
+}

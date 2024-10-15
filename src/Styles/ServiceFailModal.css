@@ -1,0 +1,35 @@
+.base-modal {
+  background: #fff;
+  padding: 10px 40px 40px 40px;
+  border-radius: 8px;
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+  place-items: start;
+  margin: auto;
+}
+
+.modal-header {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-top: 25px;
+  gap: 15px;
+  margin-bottom: 5px;
+}
+
+.underline {
+  width: 95%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid gainsboro;
+}
+
+.modal-footer {
+  width: 95%;
+  display: flex;
+  justify-content: end;
+}
