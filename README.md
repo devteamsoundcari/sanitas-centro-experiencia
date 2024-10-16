@@ -70,8 +70,8 @@ En primer lugar debe asegurarse de tener las dependencias mencionadas al inicio 
 
 #### Paso 1: Clonar el proyecto
 
-El link del repositorio es el siguiente: [https://github.com/devteamsoundcari/sanitas-AOL
-](https://github.com/devteamsoundcari/sanitas-AOL)
+El link del repositorio es el siguiente: [https://github.com/devteamsoundcari/sanitas-centro-experiencia
+](https://github.com/devteamsoundcari/sanitas-centro-experiencia)
 ¡Atención! Este es un repo privado. Debe tener acceso aprobado por parte de un administrador además de haber sido agregado como colaborador al repositorio.
 
 ```
