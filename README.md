@@ -75,7 +75,8 @@ El link del repositorio es el siguiente: [https://github.com/devteamsoundcari/sa
 ¡Atención! Este es un repo privado. Debe tener acceso aprobado por parte de un administrador además de haber sido agregado como colaborador al repositorio.
 
 ```
-git clone git@github.com:devteamsoundcari/sanitas-AOL.git
+git clone git@github.com:devteamsoundcari/sanitas-centro-experiencia.git
+
 ```
 
 Si hace uso de llaves ssh con github, se recomienda el uso de las mismas en el repo.
